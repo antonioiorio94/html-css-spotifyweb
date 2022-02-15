@@ -28,3 +28,24 @@ header button{
 }
 
 /*---/HEADER---*/
+
+main{
+width: 100vw;
+height: 100vh;
+background: linear-gradient(338deg, rgba(8,6,38,1) 0%, rgba(65,65,96,1) 54%);
+
+}
+
+.main-header{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.main-header li{
+    display: inline-block;
+    margin: 20px;
+    color: lightgrey;
+}
+}
