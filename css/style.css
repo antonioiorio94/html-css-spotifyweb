@@ -5,16 +5,23 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
 
+    background: linear-gradient(338deg, rgba(8,6,38,1) 0%, rgba(65,65,96,1) 54%);
+    
+    }
 
 /*---HEADER---*/
 
 header{
-    background-color: #080b12;
+    background-color: #05050f82;
+    width: 100%;
     min-height: 8vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -33,11 +40,7 @@ header button{
 
 /*---MAIN---*/
 
-main{
 
-background: linear-gradient(338deg, rgba(8,6,38,1) 0%, rgba(65,65,96,1) 54%);
-
-}
 
 .main-header{
     list-style-type: none;
@@ -110,6 +113,13 @@ section p {
 /*---/POPULAR SECTION---*/
 
 
-
-
 /*---/MAIN---*/
+
+
+/*---FOOTER---*/
+
+footer{
+    background-color: black;
+}
+
+/*---/FOOTER---*/
