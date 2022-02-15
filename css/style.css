@@ -2,4 +2,29 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+/*---HEADER---*/
+
+header{
+    background-color: #080b12;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+header button{
+    width: 300px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin-right: 3%;
+    font-size: large;
+}
+
+/*---/HEADER---*/
