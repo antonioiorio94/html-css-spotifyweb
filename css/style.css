@@ -11,10 +11,22 @@ body{
     
     }
 
+
+main{
+    overflow-y: auto;
+}
+    
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
 /*---HEADER---*/
 
+
 header{
-    background-color: #05050f82;
+    background-color: #05050f75;
     width: 100%;
     min-height: 8vh;
     display: flex;
@@ -56,7 +68,7 @@ header button{
 }
 
 
-h2, h3{
+h2, h3, h4{
     color: white;
     margin: 20px 0px 20px 0px;
     
@@ -120,6 +132,10 @@ section p {
 
 footer{
     background-color: black;
+}
+
+footer img {
+    width: 3%;
 }
 
 /*---/FOOTER---*/
