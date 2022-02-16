@@ -8,7 +8,7 @@
 body{
 
     background: linear-gradient(338deg, rgba(8,6,38,1) 0%, rgba(65,65,96,1) 54%);
-    
+    color: white;
     }
 
 
@@ -68,8 +68,8 @@ header button{
 }
 
 
-h2, h3, h4{
-    color: white;
+h2, h3{
+    
     margin: 20px 0px 20px 0px;
     
 }
@@ -132,10 +132,48 @@ section p {
 
 footer{
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.left-player{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
 
 footer img {
-    width: 3%;
+    width: 15%;
 }
 
+.player-btn{
+    font-size:xx-large;
+    padding: 20px;
+}
+
+.song-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-player img{
+    margin: 0px 20px 0px 20px;
+}
+
+.icon {
+    color: lightgray;
+    margin: 0px 5px 0px 30px;
+}
+
+.player-icon {
+    color: white;
+    margin-right: 20px;
+}
+
+.volume-dx{
+    padding: 20px;
+    justify-items: center;
+}
 /*---/FOOTER---*/

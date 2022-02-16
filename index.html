@@ -10,10 +10,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/2088175081.js"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Spotify</title>
 </head>
@@ -152,24 +150,48 @@
         <!--FOOTER-->
 
         <footer>
-
-            <div>
+            <!--LEFT-PLAYER-->
+            <div class="left-player">
                 <img src="img/sinister.jpeg" alt="sinister">
-                <h4>Sinister</h4>
-                <p>Nome Brano</p>
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-regular fa-heart"></i>
+                <div class="song-info">
+                    <h4>Sinister</h4>
+                    <p>Nome Brano </p>
+                </div>
 
+                <i class="fa-regular fa-heart icon"></i>
+                <i class="fa-regular fa-folder icon"></i>
 
+            </div>
+            <!--/LEFT-PLAYER-->
+            <!--CNT-PLAYER-->
+            <div>
+                <div class="player-btn">
+                    <i class="fa-solid fa-arrow-rotate-right player-icon"></i>
+                    <i class="fa-solid fa-backward-step player-icon"></i>
+                    <i class="fa-regular fa-circle-play player-icon"></i>
+                    <i class="fa-solid fa-forward-step player-icon"></i>
+                    <i class="fa-solid fa-arrow-rotate-right player-icon"></i>
 
+                </div>
+
+                <div class="timer">
+                    <p>0:25</p>
+                    <p>4:20</p>
+                </div>
 
 
             </div>
-            <div></div>
-            <div></div>
 
+            <!--/CNT-PLAYER-->
 
+            <div>
+                <div class="volume-dx">
+                    <i class="fa-solid fa-sliders player-icon"></i>
+                    <i class="fa-solid fa-desktop player-icon"></i>
+                    <i class="fa-solid fa-volume-high player-icon"></i>
+                </div>
 
+            </div>
         </footer>
 
         <!--/FOOTER-->
