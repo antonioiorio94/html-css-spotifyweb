@@ -7,7 +7,7 @@
 
 body{
 
-    background: linear-gradient(338deg, rgba(8,6,38,1) 0%, rgba(65,65,96,1) 54%);
+    background: linear-gradient(338deg, rgba(18,18,27,1) 0%, rgba(39,52,74,1) 49%);
     color: white;
     }
 
@@ -177,7 +177,7 @@ section p {
 /*---FOOTER---*/
 
 footer{
-    background-color: rgb(34, 34, 34);
+    background-color: #282828;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -198,6 +198,7 @@ footer img {
 .player-btn{
     font-size:xx-large;
     padding: 20px;
+    text-align: center;
 }
 
 .song-info{
@@ -216,8 +217,33 @@ footer img {
     margin-right: 20px;
 }
 
+.timer{
+    display: flex;
+    align-items: center;
+}
+.play-bar{
+    width: 50vh;
+    background-color: rgb(78, 78, 78);
+    height: 5px;
+    margin: 0px 20px 0px 20px;
+}
+
+.reproduced{
+    height: 5px;
+    width: 50%;
+    background-color: lightgray;
+}
+
 .volume-dx{
     padding: 20px;
     justify-items: center;
+}
+
+.right-player{
+    display: flex;
+}
+
+.volume{
+    width: 8vw;
 }
 /*---/FOOTER---*/
