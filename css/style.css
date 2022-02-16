@@ -12,15 +12,20 @@ body{
     }
 
 
-main{
+
+.main-content{
+    display: flex;
+}
+
+
+.content{
+    display: flex;
+    height: 91vh;
+    flex-direction: column;
     overflow-y: auto;
 }
-    
-.container{
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-}
+
+
 
 /*---HEADER---*/
 
@@ -50,6 +55,47 @@ header button{
 
 /*---/HEADER---*/
 
+
+/*---SIDE SECTION---*/
+
+aside {
+    background-color: black;
+    padding: 20px;
+    position: relative;
+}
+
+#logo{
+    width: 70%;
+    margin-bottom: 40px;
+    
+}
+
+aside nav p,h4,li{
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+aside i{
+    font-size: larger;
+}
+
+.fa-plus{    background-color: lightgray;
+    color: black;
+    padding: 10px;
+}
+
+.profile{
+    position: absolute;
+    bottom: 0px;
+}
+
+#install{
+    margin-bottom: 10px;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+}
+/*---/SIDE SECTION---*/
+
 /*---MAIN---*/
 
 
@@ -78,8 +124,8 @@ h2{
 }
 
 
-p{
-    color: lightgray;
+p,li{
+    color: rgb(151, 151, 151);
 }
 
 
@@ -131,7 +177,7 @@ section p {
 /*---FOOTER---*/
 
 footer{
-    background-color: black;
+    background-color: rgb(34, 34, 34);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -146,6 +192,7 @@ footer{
 
 footer img {
     width: 15%;
+    margin: 0px 20px 0px 0px;
 }
 
 .player-btn{
@@ -158,9 +205,6 @@ footer img {
     flex-direction: column;
 }
 
-.left-player img{
-    margin: 0px 20px 0px 20px;
-}
 
 .icon {
     color: lightgray;
