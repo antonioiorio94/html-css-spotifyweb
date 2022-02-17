@@ -99,13 +99,18 @@ aside i{
 
 .profile{
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
 }
 
-#install{
+.profile div:first-child {
     margin-bottom: 10px;
     border-bottom: solid 1px;
     padding-bottom: 10px;
+}
+
+.profile div p, h4{
+    
+    display: inline-block;
 }
 /*---/SIDE SECTION---*/
 
@@ -292,13 +297,13 @@ footer img {
     #logo-small{
         display: inline-block;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 
     aside{
         width: 100px;
     }
-    aside nav div p, nav h4, nav ul li{
+    aside nav div p, nav h4, nav ul li, aside .profile div p, h4 {
         display: none;
     }
 
