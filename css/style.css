@@ -62,7 +62,7 @@ aside {
     background-color: black;
     padding: 20px;
     position: relative;
-    width: 300px;
+    width: 14%;
 }
 
 #logo{
@@ -241,11 +241,13 @@ footer img {
 
 .player-icon {
     color: white;
+    margin-right: 3%;
 }
 
 .timer{
     display: flex;
     align-items: center;
+    position: relative;
 }
 .play-bar{
     width: 100%;
@@ -258,16 +260,26 @@ footer img {
     height: 5px;
     width: 50%;
     background-color: lightgray;
+    
 }
 
-.volume-dx{
-    padding: 20px;
-    justify-items: center;
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    z-index: 50;
+    position: absolute;
+    left: 50%;
+    bottom: 1px;
+    border-radius: 50%;
+    display: none;
 }
+
 
 .right-player{
     display: flex;
 }
+
 
 .volume{
     width: 8vw;
@@ -275,6 +287,38 @@ footer img {
 /*---/FOOTER---*/
 
 
+/*--HOVER--*/
+
+p:hover, li:hover {
+    color:white;
+}
+
+
+.reproduced:hover {
+    background-color:greenyellow;
+}
+
+.play:hover{
+    transform: scale(1.2);
+}
+
+header button:hover {
+    transform: scale(1.1);
+}
+
+.circle:hover {
+    display: inline-block;
+}
+
+
+
+
+/*--/HOVER--*/
+
+
+
+
+/*--RESPONSIVE--*/
 @media screen and (max-width: 1440px) {
 
     .cover {
@@ -307,6 +351,7 @@ footer img {
         display: none;
     }
 
-    
-
+   
 }
+
+/*--RESPONSIVE--*/
