@@ -9,6 +9,7 @@ body{
 
     background: linear-gradient(338deg, rgba(18,18,27,1) 0%, rgba(39,52,74,1) 49%);
     color: white;
+    
     }
 
 
@@ -23,6 +24,7 @@ body{
     height: 91vh;
     flex-direction: column;
     overflow-y: auto;
+   
 }
 
 
@@ -138,10 +140,15 @@ p,li{
 .cover{
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
     text-align: center;
     padding: 15px;
+    flex-basis: 100%;
 }
+
+img{
+    width:100%;
+}
+
 /*---/PLAYED SECTION---*/
 
 /*---RACCOMANDED SECTION---*/
